@@ -28,4 +28,4 @@ Feature: fetch admin media from lettuce + django builtin server
       | /media/js/timeparse.js             |
       | /media/js/urlify.js                |
     When all the responses have status code 200
-    Then all the responses have mime type "application/javascript"
+    Then all the responses have mime type "text/javascript"
